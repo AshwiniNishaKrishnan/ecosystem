@@ -7,12 +7,12 @@ apps : [{
 ],
 deploy : {
 production : {
-user : 'SSH_USERNAME',
-host : 'SSH_HOSTMACHINE',
-ref : 'origin/master',
-repo : 'GIT_REPOSITORY',
+user : 'nisha',
+host : '172.31.30.115',
+ref : 'main',
+repo : 'git@github.com:AshwiniNishaKrishnan/ecosystem.git',
 path : 'DESTINATION_PATH',
-key  : .ssh/idrs,
+key  : 'id_rsa.pub',
 'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production',
 }
 }
