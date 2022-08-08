@@ -12,7 +12,7 @@ host : '172.31.30.115',
 ref : 'main',
 repo : 'git@github.com:AshwiniNishaKrishnan/ecosystem.git',
 path : '/home/nisha',
-key  : 'id_rsa.pub',
+key  : '/home/nisha/.ssh/id_rsa.pub',
 'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production',
 }
 }
