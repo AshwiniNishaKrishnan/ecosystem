@@ -8,10 +8,10 @@ apps : [{
 deploy : {
 production : {
 user : 'nisha',
-host : '172.31.30.115',
+host : '52.66.85.95',
 ref : 'main',
 repo : 'git@github.com:AshwiniNishaKrishnan/ecosystem.git',
-path : '/home/nisha',
+path : '/home/nisha/demo',
 key  : '/home/nisha/.ssh/id_rsa',
 'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production',
 }
