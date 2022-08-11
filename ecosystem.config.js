@@ -3,10 +3,6 @@ apps : [{
 
       name: "node-demo",
         script: "npm run start:dev",
-        "env_prod": {
-          "PORT": 3002,
-          "NODE_ENV": "production",
-        },
 },
 ],
 deploy : {
