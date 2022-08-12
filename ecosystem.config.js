@@ -8,7 +8,7 @@ apps : [{
 deploy : {
 production : {
 user : 'nisha',
-host : '52.66.85.95',
+host : '172.31.30.115',
 ref : 'main',
 repo : 'git@github.com:AshwiniNishaKrishnan/ecosystem.git',
 path : '/home/nisha/demo',
